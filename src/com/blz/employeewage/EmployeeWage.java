@@ -2,7 +2,16 @@ package com.blz.employeewage;
 
 public class EmployeeWage {
 public static void main(String[] args) {
-	System.out.println("welcome to empwage");
-	}
+	int isFULL_TIME = 1;
+    double empcheck = (int) (Math.random() * 100) % 2;
+    if (empcheck == isFULL_TIME)
+    
+        System.out.println("Employee is Present");
+
+     else
+    
+        System.out.println("Employee is Absent");
+
+    }
 }
 
